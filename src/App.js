@@ -1,9 +1,14 @@
 function App() {
   return (
     <div className="wrapper clear">
+      <div className="overlay">
+        <div className="drawer">
+          <h2>Корзина</h2>
+        </div>
+      </div>
       <header className="d-flex justify-between align-center p-40">
         <div className="d-flex align-center">
-          <img width={40} height={40} src="/img/logo.png" />
+          <img width={40} height={40} src="/img/logo.png" alt="" />
           <div>
             <h3 className="text-uppercase">React Sneakers</h3>
             <p className="opacity-5">Магазин лучших кроссовок</p>
@@ -12,11 +17,11 @@ function App() {
         <div>
           <ul className="d-flex">
             <li className="mr-30">
-              <img width={18} height={18} src="/img/cart.svg" />
+              <img width={18} height={18} src="/img/cart.svg" alt="" />
               <span>1205 руб.</span>
             </li>
             <li>
-              <img width={18} height={18} src="/img/user.svg" />
+              <img width={18} height={18} src="/img/user.svg" alt="" />
             </li>
           </ul>
         </div>
@@ -31,6 +36,9 @@ function App() {
         </div>
         <div className="d-flex">
           <div className="card">
+            <div className="favorite">
+              <img src="/img/heart-unliked.svg" alt="Unliked" />
+            </div>
             <img width={133} height={112} src="/img/sneakers/1.jpg" alt="" />
             <h5>Мужские кроссовки Nike Blazer Mid Suede</h5>
             <div className="d-flex justify-between align-center">
@@ -39,7 +47,7 @@ function App() {
                 <b>12 999 руб.</b>
               </div>
               <button className="button">
-                <img width={11} height={11} src="/img/plus.svg" />
+                <img width={11} height={11} src="/img/plus.svg" alt="" />
               </button>
             </div>
           </div>
@@ -52,7 +60,7 @@ function App() {
                 <b>12 999 руб.</b>
               </div>
               <button className="button">
-                <img width={11} height={11} src="/img/plus.svg" />
+                <img width={11} height={11} src="/img/plus.svg" alt="" />
               </button>
             </div>
           </div>
@@ -65,7 +73,7 @@ function App() {
                 <b>12 999 руб.</b>
               </div>
               <button className="button">
-                <img width={11} height={11} src="/img/plus.svg" />
+                <img width={11} height={11} src="/img/plus.svg" alt="" />
               </button>
             </div>
           </div>
@@ -78,7 +86,7 @@ function App() {
                 <b>12 999 руб.</b>
               </div>
               <button className="button">
-                <img width={11} height={11} src="/img/plus.svg" />
+                <img width={11} height={11} src="/img/plus.svg" alt="" />
               </button>
             </div>
           </div>
